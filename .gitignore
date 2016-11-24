@@ -1,5 +1,11 @@
+
+# Build folder
 /_build
+
 /cover
 /deps
 erl_crash.dump
 *.ez
+
+# Visual Stuio Code
+.vscode

@@ -10,7 +10,7 @@ defmodule Cards do
       Returns a list of strings representing a deck of playing cards.
     """
     def create_deck do
-        values = ["Ace", "Two", "Three", "Four", "Five", "Six"]
+        values = ["Ace", "Two", "Three", "Four", "Five"]
         suits = ["Spades", "Clubes", "Hearts", "Diamonds"]
 
         for suit <- suits, value <- values do
